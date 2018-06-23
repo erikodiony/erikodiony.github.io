@@ -7,24 +7,39 @@
    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico"/>
    <title>Erikodiony Ariessa Wahyudi | Bio  - Portofolio - Resume</title>
    
-   <!-- Bootstrap core CSS -->
-   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-   
-   <!-- Font Awesome core CSS -->
-   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
- 
-   <!-- Custom styles for this template -->
-   <link href="../assets/css/justified-nav.css" rel="stylesheet">
-    <style type="text/css">
-     .table-responsive {margin-top: 15px; margin-bottom: 15px}
-   </style>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Font Awesome core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="../assets/css/justified-nav.css" rel="stylesheet">
+  <style type="text/css">
+    .table-responsive {margin-top: 15px; margin-bottom: 15px}
+  </style>
+
+  <script type="text/javascript">
+  $(document).ready(function($) {
+    $(".popupImg").on("click", function(){
+      $('#onPopupSrc').attr('src',$(this).find('img').attr('src'));
+      jQuery.noConflict();
+      $('#onPopup').modal('show');
+    });
+  });
+  </script>
+
   </head>
  
  <body>
  
      <div class="container">
  
-       <div class="masthead">
+        <div class="masthead">
          <h3 class="text-muted">ERIKODIONY ARIESSA WAHYUDI</h3>
  
          <nav class="navbar navbar-expand-lg navbar-light bg-faded rounded mb-3">
@@ -53,21 +68,30 @@
        <!-- Jumbotron -->
  <div class="jumbotron row">
     <div class="col-sm-12 col-md-6">
-      <div class="table-responsive">
+    <div class="table-responsive">
       <table class="table table-striped">         
         <thead>
           <tr>
-            <td><strong><div align="center"><i class="fa fa-mobile fa-lg"></i>&nbsp;MOBILE</div></strong></td>
+            <td><strong><div align="center"><i class="fa fa-feed fa-lg"></i>&nbsp;WEB<br><br>Awesome Dashboard</div></strong></td>
           </tr>
         </thead>
-        <tr><td><div align="left"><strong>birth of place</strong></div></td></tr>
-        <tr><td><div align="right"><strong>Balikpapan, East Kalimantan</strong></div></td></tr>
-        <tr><td><div align="left"><strong>date of place</strong></div></td></tr>
-        <tr><td><div align="right"><strong>September 24, 1994</strong></div></td></tr>
-        <tr><td><div align="left"><strong>sex</strong></div></td></tr>
-        <tr><td><div align="right"><strong>Male</strong></div></td></tr>
-        <tr><td><div align="left"><strong>nationality</strong></div></td></tr>
-        <tr><td><div align="right"><strong>Indonesia</strong></div></td></tr>
+        <tr><td><div align="center">
+          <div class="thumbnail">
+            <a class="popupImg" style="cursor: zoom-in;">
+              <img src="../assets/img/awesome-dashboard.png" alt="Awesome Dashboard" style="width:100%">
+            </a>
+          </div><br>
+          <strong>Merupakan UI desain responsif (Desktop/Mobile) yang dapat diaplikasikan pada Panel Kontrol atau Dashboard Kontrol suatu Aplikasi Web</strong></div></td></tr>
+        <tr><td><div align="left"><strong>Backend</strong></div></td></tr>
+        <tr><td><div align="right"><strong>-</strong></div></td></tr>
+        <tr><td><div align="left"><strong>UI</strong></div></td></tr>
+        <tr><td><div align="right"><strong>Bootstrap Framework + Font Awesome</strong></div></td></tr>
+        <tr><td><div align="left"><strong>Create</strong></div></td></tr>
+        <tr><td><div align="right"><strong>September 2, 2015</strong></div></td></tr>
+        <tr><td><div align="left"><strong>Source Code</strong></div></td></tr>
+        <tr><td><div align="center"><strong><a href="https://github.com/erikodiony/awesome-dashboard" target="_blank" style="text-decoration: none">Github</a></strong></div></td></tr>
+        <tr><td><div align="left"><strong>Demo</strong></div></td></tr>
+        <tr><td><div align="center"><strong><a href="http://demo.ngezz.tk/awesome_dashboard" target="_blank" style="text-decoration: none">Klik This >></a></strong></div></td></tr>
       </table>
     </div>  
   </div>
@@ -76,53 +100,59 @@
       <table class="table table-striped">         
         <thead>
           <tr>
-            <td><strong><div align="center"><i class="fa fa-feed fa-lg"></i>&nbsp;WEB</div></strong></td>
+            <td><strong><div align="center"><i class="fa fa-feed fa-lg"></i>&nbsp;WEB<br><br>Aplikasi Pengelolaan Surat Masuk dan Keluar</div></strong></td>
           </tr>
         </thead>
-        <tr><td><div align="left"><strong>birth of place</strong></div></td></tr>
-        <tr><td><div align="right"><strong>Balikpapan, East Kalimantan</strong></div></td></tr>
-        <tr><td><div align="left"><strong>date of place</strong></div></td></tr>
-        <tr><td><div align="right"><strong>September 24, 1994</strong></div></td></tr>
-        <tr><td><div align="left"><strong>sex</strong></div></td></tr>
-        <tr><td><div align="right"><strong>Male</strong></div></td></tr>
-        <tr><td><div align="left"><strong>nationality</strong></div></td></tr>
-        <tr><td><div align="right"><strong>Indonesia</strong></div></td></tr>
-      </table>
-    </div>  
-  </div>
-  <div class="col-sm-12 col-md-6">
-    <div class="table-responsive">
-      <table class="table table-striped">         
-        <thead>
-          <tr>
-            <td><strong><div align="center"><i class="fa fa-laptop fa-lg"></i>&nbsp;DESKTOP</div></strong></td>
-          </tr>
-        </thead>
-        <tr><td><div align="left"><strong>birth of place</strong></div></td></tr>
-        <tr><td><div align="right"><strong>Balikpapan, East Kalimantan</strong></div></td></tr>
-        <tr><td><div align="left"><strong>date of place</strong></div></td></tr>
-        <tr><td><div align="right"><strong>September 24, 1994</strong></div></td></tr>
-        <tr><td><div align="left"><strong>sex</strong></div></td></tr>
-        <tr><td><div align="right"><strong>Male</strong></div></td></tr>
-        <tr><td><div align="left"><strong>nationality</strong></div></td></tr>
-        <tr><td><div align="right"><strong>Indonesia</strong></div></td></tr>
+        <tr><td><div align="center">
+          <div class="thumbnail">
+            <a class="popupImg" style="cursor: zoom-in;">
+              <img src="../assets/img/surat.png" alt="Aplikasi Pengelolaan Surat Masuk dan Keluar" style="width:100%">
+            </a>
+          </div><br>
+          <strong>Aplikasi ini berfungsi untuk pembuatan surat masuk dan surat keluar pada instansi. Serta pembuatan surat disposisi yang bertujuan agar staf dapat menindaklanjuti atau menyelesaikan surat masuk / surat masuk sesuai dengan yang dikehendaki oleh pimpinan.</strong></div></td></tr>
+        <tr><td><div align="left"><strong>Backend</strong></div></td></tr>
+        <tr><td><div align="right"><strong>PHP 5.6 + MariaDB SQL</strong></div></td></tr>
+        <tr><td><div align="left"><strong>UI</strong></div></td></tr>
+        <tr><td><div align="right"><strong>Bootstrap Framework + Font Awesome</strong></div></td></tr>
+        <tr><td><div align="left"><strong>Create</strong></div></td></tr>
+        <tr><td><div align="right"><strong>January 10, 2016</strong></div></td></tr>
+        <tr><td><div align="left"><strong>Source Code</strong></div></td></tr>
+        <tr><td><div align="center"><strong><a href="https://github.com/erikodiony/Surat" target="_blank" style="text-decoration: none">Github</a></strong></div></td></tr>
+        <tr><td><div align="left"><strong>Demo</strong></div></td></tr>
+        <tr><td><div align="center"><strong>Masukan Data Login berikut :<br>Nama pengguna: <u>demo</u><br>Kata Sandi: <u>demo</u><br>Hak Akses: <u>User</u><br><br><a href="http://demo.ngezz.tk/surat" target="_blank" style="text-decoration: none">Klik This >></a></strong></div></td></tr>
       </table>
     </div>  
   </div>
  </div>
  
+
+<!-- Creates the bootstrap modal where the image will appear -->
+<div class="modal fade" id="onPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    <div class="modal-header">
+      <h4 class="modal-title"><i class="fa fa-image fa-lg"></i> &nbsp;Image preview</h4>
+    </div>
+    <div class="modal-body">
+      <img src="" id="onPopupSrc" style="width: 100%;" >
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary btn-md" data-dismiss="modal"><i class="fa fa-close fa-lg"></i> Close</button>
+    </div>
+    </div>              
+      
+  </div>
+</div>
+
+
+
+
  <!-- Site footer -->
  <footer class="footer">
    <p class="pull-left">Logically in Mind & Creativity in Heart</p>
    <div class="pull-right">&copy; 2018</div>
  </footer>
- 
- 
- 
      </div> <!-- /container -->
- 
-     <script src="../assets/js/jquery-3.2.1.slim.min.js"></script>
-     <script src="../assets/js/bootstrap.min.js"></script>
-     <script src="../assets/js/popper.min.js"></script>
+
  </body>
  </html>
